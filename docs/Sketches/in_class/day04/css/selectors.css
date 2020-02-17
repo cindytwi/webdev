@@ -1,0 +1,31 @@
+/* element selectors: selects HTML elements */
+h1 {
+    color: cornflowerblue;
+    background-color: darkblue;
+    font-size: 3em;
+}
+#home-title {
+    text-align: center;
+
+}
+div {
+    width: 200px;
+    height: 200px;
+    border: 3px solid brown;
+    text-align: center;
+    font-size: 2em;
+    background-color: burlywood;
+}
+
+/* classes are reusuable selectors*/
+.purple {
+    background-color: purple;
+}
+
+.red {
+    background-color: red;
+}
+
+.underline {
+    text-decoration: underline;
+}
