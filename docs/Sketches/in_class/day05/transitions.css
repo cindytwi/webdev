@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin:0;
+}
+body {
+    font-family: monospace;
+
+}
+h1 {
+    text-align: center;
+    padding: 3 vw;
+
+}
+.box{
+    width: 200px;
+    height:200px;
+    background-color: magenta;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition-property: background-color, top;
+    transition-duration: 3s;
+    animation-name: move-right;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+
+
+}
+
+@keyframes move-right{
+    0% {left:0px; top: 600px}
+    50% {left :400px; top: 600px}
+    70% {left: 400px; top: 600px}
+    75% {left: 200px; top: 600px}
+    100% {left:800px; top: 600px}
+
+
+}
