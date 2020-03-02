@@ -1,0 +1,19 @@
+* {
+    padding:0;
+    margin:0;
+}
+header {
+    background-color: khaki;
+}
+
+#main-menu {
+    display:flex;
+}
+.menu-item{ 
+    list-style: none;
+}
+.container {
+margin: 0 auto;
+width: 70vw;
+
+}
