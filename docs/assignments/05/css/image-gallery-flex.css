@@ -1,7 +1,39 @@
+h1{
+    text-align: center;
+    font-size: x-large;
+    text-decoration-color: darkblue;
+}
 body {
-    display:flex
-}
-
-img {
-    display:flex
-}
+    font-family: sans-serif;
+    column-count: 2;
+    column-gap: 1px;
+    align-items: center;
+  }
+  
+  #flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80vw;
+    height: max-content;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  div.image {
+    content:url(https://i.redd.it/wwl7pimi84411.png);
+    width: 400px;
+    height:300px;
+ }​
+  .box {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 5px dotted black;
+    margin: 10px 0;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+  }

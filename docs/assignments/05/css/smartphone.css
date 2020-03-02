@@ -1,0 +1,34 @@
+#wrapper {
+  background-color: lightpink;
+  width: 30vw;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  width: 94%;
+  justify-content: center;
+  margin: 5px 0;
+  
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  width: 25px;
+  height: 25px;
+  margin: 2px;
+  font-size: .75em;
+}
+.box:hover {
+  background-color: aquamarine;
+  left: 400px;
+  position: inline;
+}
